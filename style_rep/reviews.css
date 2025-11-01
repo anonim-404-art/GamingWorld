@@ -302,3 +302,259 @@ a {
 .list_info h2:hover{
     color: #00ff88;
 }
+.image_logo {
+    width: 90px;
+}
+
+@media (max-width: 700px) {
+    .info_1 {
+        margin-top: 20px;
+    }
+
+    .container_1_content h1 {
+        font-size: 35px;
+    }
+
+    .container_1_content h3 {
+        font-size: 13px;
+    }
+
+    .image_logo {
+        width: 50px;
+    }
+
+    .main_content {
+        height: auto;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .community {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+    .navbar a {
+        font-size: 13px;
+    }
+
+    .header {
+        height: 40px;
+    }
+
+    .community {
+        width: 100px;
+        height: 20px;
+    }
+
+    .button {
+        font-size: 8px;
+        width: 100px;
+        height: 15px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .container_4 {
+        width: 90%;
+        height: auto;
+    }
+
+    .info {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .cont {
+        width: 45%;
+        text-align: center;
+    }
+
+    .r4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .t2 {
+        font-size: 15px;
+    }
+
+    .r4 input.t1,
+    .r4 button.t2 {
+        width: 60%;
+        height: 30px;
+    }
+
+    /*content*/
+    .text_content{
+        width: 60%;
+    }
+    .game_img{
+        background-position: bottom;
+        width: 90px;
+        height: 60px;
+    }
+    .score{
+        width: 50px;
+        height: 25px;
+        font-size: 15px;
+    }
+    .text_content h1{
+        font-size: 20px;
+    }
+    .text_content p{
+        font-size: 13px;
+    }
+    .text_content span{
+        font-size: 13px;
+    }
+    .list_info h2{
+        font-size: 20px;
+    }
+    .container_5{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 400px) {
+
+    .info_1 {
+        margin-top: 20px;
+    }
+
+    .container_1_content h1 {
+        font-size: 25px;
+    }
+
+    .container_1_content h3 {
+        font-size: 10px;
+    }
+
+    .image_logo {
+        width: 30px;
+    }
+
+    .main_content {
+        height: auto;
+    }
+
+    .logo {
+        width: 30px;
+    }
+
+    .community {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 50%;
+    }
+
+    .navbar a {
+        font-size: 6px;
+    }
+
+    .header {
+        height: 40px;
+    }
+
+    .community {
+        width: 50px;
+        height: 20px;
+    }
+
+    .button {
+        font-size: 5px;
+        width: 50px;
+        height: 10px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .container_4 {
+        width: 90%;
+        height: auto;
+    }
+
+    .info {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .cont {
+        width: 45%;
+        text-align: center;
+    }
+
+    .r4 input.t1,
+    .r4 button.t2 {
+        width: 80%;
+        height: 30px;
+    }
+    /*content*/
+    .text_content{
+        width: 60%;
+    }
+    .game_img{
+        background-position: bottom;
+        width: 80px;
+        height: 60px;
+    }
+    .container_3{
+        height: 600px;
+    }
+    .container_3_box{
+        height: 150px;
+    }
+    .text_content{
+        height: 100px;
+    }
+    .score{
+        width: 30px;
+        height: 15px;
+        font-size: 8px;
+    }
+    .text_content h1{
+        font-size: 15px;
+    }
+    .text_content p{
+        font-size: 8px;
+    }
+    .text_content span{
+        font-size: 8px;
+    }
+    .list_info h2{
+        font-size: 12px;
+    }
+    .container_5{
+        margin-bottom: 20px;
+    }
+    .score_small{
+        width: 50px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .main_text{
+        font-size: 10px;
+    }
+}
+

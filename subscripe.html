@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Gaming World</title>
-    <link rel="stylesheet" href="style_rep/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style_rep/subscribe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
           integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -13,12 +15,12 @@
     <div class="content">
         <div class="logo">
             <a href="home.html">
-                <img style="width: 90px;" src="site_images/logo_back.PNG" alt="">
+                <img class="image_logo" src="site_images/logo_back.PNG" alt="">
             </a>
 
         </div>
         <div class="navbar">
-            <a style="color: #2563EB; padding-bottom: 4px; border-bottom: 2px #2563EB solid" href="home.html"
+            <a href="home.html"
                class="nav_1">Home</a>
             <a href="news.html" class="nav_2">News</a>
             <a href="reviews.html" class="nav_3">Reviews</a>
@@ -33,40 +35,24 @@
     </div>
 </header>
 <main class="main_content">
+    <form class="main_form" action="#">
+        <h1 class="main_text">SUBSCRIBE US</h1>
+        <div class="content_input">
+            <label for="email">Email Address</label>
+            <input id="email" type="email">
+        </div>
+        <div class="content_input">
+            <label for="password">Create Password</label>
+            <input id="password" type="password">
+        </div>
+        <div class="content_check">
+            <input id="checkbox" type="checkbox">
+            <label for="checkbox">I Agree With Terms And Conditions</label>
 
+        </div>
+        <button class="button_form">Submit</button>
+    </form>
 </main>
-<footer class="footer">
-    <div class="container_4">
-        <div class="info">
-            <div class="cont r1">
-                <img style="height: 90px;" src="site_images/logo_back.PNG" alt="">
-                <h3>Your trusted source for all things gaming. Unbiased, insightful, and always up-to-date.</h3>
-            </div>
-            <div class="cont r2">
-                <h2>Quick Links</h2>
-                <a href="news.html">News Archives</a>
-                <a href="reviews.html">All Reviews</a>
-                <a href="guides.html">Game Thought</a>
-                <a href="releases.html">Release Schedule</a>
-            </div>
-            <div class="cont r3">
-                <h2>Company</h2>
-                <p>About us</p>
-                <p>Advertise</p>
-                <p>Careers</p>
-                <p>Contact</p>
-            </div>
-            <div class="cont r4">
-                <h2>Join the Newsletter</h2>
-                <input placeholder="Your email address" class="t1" type="text">
-                <button class="t2">Subscribe</button>
-            </div>
-        </div>
-        <hr>
-        <div class="info_1">
-            <h3>© 2025 Gaming World. All rights reserved.</h3>
-        </div>
-    </div>
-</footer>
+
 </body>
 </html>
