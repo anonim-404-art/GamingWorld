@@ -18,6 +18,9 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.image_logo{
+    width: 90px;
+}
 .container_4 {
     width: 80%;
     height: 75%;
