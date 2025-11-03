@@ -265,8 +265,17 @@ a {
 .e3 h3 {
     margin-left: 10px;
 }
-
-
+.r3 a{
+    color: #2563EB;
+}
+.r3 a:visited{
+    color: #6b7280;
+}
+.r3 a:hover{
+    background: linear-gradient(to right, blue, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /*footer*/
 .footer {
     display: flex;

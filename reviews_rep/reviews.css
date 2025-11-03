@@ -15,7 +15,17 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
+.r3 a{
+    color: #2563EB;
+}
+.r3 a:visited{
+    color: #6b7280;
+}
+.r3 a:hover{
+    background: linear-gradient(to right, blue, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .info {
     height: 85%;
     display: flex;

@@ -7,7 +7,17 @@
     background-color: #000a40;
     height: 400px;
 }
-
+.r3 a{
+    color: #2563EB;
+}
+.r3 a:visited{
+    color: #6b7280;
+}
+.r3 a:hover{
+    background: linear-gradient(to right, blue, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .container_4 {
     width: 80%;
     height: 75%;
