@@ -6,17 +6,26 @@
     background-color: #000a40;
     height: 400px;
 }
-.r3 a{
+
+.r3 a {
     color: #2563EB;
 }
-.r3 a:visited{
+
+.r3 a:visited {
     color: #6b7280;
 }
-.r3 a:hover{
+
+.r3 a:hover {
     background: linear-gradient(to right, blue, red);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.image_logo_mini {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
 .container_4 {
     width: 80%;
     height: 75%;
@@ -411,6 +420,7 @@ a {
 .advanced:hover .h2 {
     color: red;
 }
+
 .image_logo {
     width: 90px;
 }
@@ -506,42 +516,53 @@ a {
         width: 60%;
         height: 30px;
     }
+
     /*content*/
-    .main_big{
+    .main_big {
         font-size: 20px;
     }
-    .main_small{
+
+    .main_small {
         font-size: 10px;
     }
-    .image{
+
+    .image {
         width: 150px;
         height: 100px;
     }
-    .content_div{
+
+    .content_div {
         margin-left: 20px;
     }
-    .main{
+
+    .main {
         height: 200px;
     }
-    .image_small{
+
+    .image_small {
         width: 200px;
         height: 100px;
     }
-    .box{
+
+    .box {
         height: 250px;
     }
-    .text_content_child h2{
+
+    .text_content_child h2 {
         font-size: 15px;
     }
-    .display_level{
+
+    .display_level {
         width: 80px;
         height: 15px;
         font-size: 11px;
     }
+
     .text_content_child p {
         font-size: 10px;
     }
-    .container_3{
+
+    .container_3 {
         height: 600px;
     }
 }
@@ -630,64 +651,86 @@ a {
     }
 
     /*content*/
-    .main_big{
+    .main_big {
         font-size: 13px;
     }
-    .main_span{
+
+    .main_span {
         font-size: 8px;
     }
-    .container_2{
+
+    .container_2 {
         font-size: 10px;
         height: 30px;
     }
-    .main_small{
+
+    .main_small {
         font-size: 8px;
     }
-    .image{
+
+    .image {
         width: 100px;
         height: 50px;
     }
-    .content_div{
+
+    .content_div {
         margin-left: 20px;
     }
-    .main{
+
+    .main {
         height: 150px;
     }
-    .image_small{
+
+    .image_small {
         width: 150px;
         height: 80px;
     }
-    .box{
+
+    .box {
         height: 200px;
     }
-    .text_content_child h2{
+
+    .text_content_child h2 {
         font-size: 13px;
     }
-    .display_level{
+
+    .display_level {
         width: 60px;
         height: 13px;
         font-size: 8px;
     }
+
     .text_content_child p {
         font-size: 8px;
     }
-    .container_3{
+
+    .container_3 {
         height: 450px;
     }
-    .container_6{
+
+    .container_6 {
         height: 200px;
     }
-        .container_5{
+
+    .container_5 {
         font-size: 10px;
         height: 30px;
     }
-        .box_1{
-            height: 80px;
-        }
-        .h2{
-            font-size: 15px;
-        }
-        .box_1_child_content p{
-            font-size: 8px;
-        }
+
+    .box_1 {
+        height: 80px;
+    }
+
+    .h2 {
+        font-size: 15px;
+    }
+
+    .box_1_child_content p {
+        font-size: 8px;
+    }
+
+    .image_logo_mini {
+        margin-bottom: 10px;
+        height: 25px;
+    }
 }

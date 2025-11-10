@@ -17,6 +17,10 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.image_logo_mini{
+    margin-bottom: 20px;
+    height: 50px;
+}
 .container_4 {
     width: 80%;
     height: 75%;
@@ -591,4 +595,8 @@ a {
     .news_meta{
         font-size: 8px;
     }
+    .image_logo_mini{
+    margin-bottom: 10px;
+    height: 25px;
+}
 }

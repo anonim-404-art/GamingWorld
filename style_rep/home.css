@@ -276,6 +276,10 @@ a {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.image_logo_mini{
+    margin-bottom: 20px;
+    height: 50px;
+}
 /*footer*/
 .footer {
     display: flex;
@@ -729,4 +733,8 @@ a {
     .info_1 {
         margin-top: 20px;
     }
+    .image_logo_mini{
+    margin-bottom: 10px;
+    height: 25px;
+}
 }

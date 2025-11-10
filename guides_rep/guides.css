@@ -7,20 +7,30 @@
     background-color: #000a40;
     height: 400px;
 }
-.r3 a{
+
+.r3 a {
     color: #2563EB;
 }
-.r3 a:visited{
+
+.r3 a:visited {
     color: #6b7280;
 }
-.r3 a:hover{
+
+.r3 a:hover {
     background: linear-gradient(to right, blue, red);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.image_logo{
+
+.image_logo {
     width: 90px;
 }
+
+.image_logo_mini {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
 .container_4 {
     width: 80%;
     height: 75%;
@@ -448,6 +458,7 @@ thead th {
     .image_logo {
         width: 30px;
     }
+
     .main_content {
         height: auto;
     }
@@ -553,13 +564,21 @@ thead th {
         width: 170px;
         font-size: 10px;
     }
+
     .image_container {
         height: 150px;
     }
-    th, td{
+
+    th, td {
         font-size: 8px;
     }
-    .article_content .image_container{
+
+    .article_content .image_container {
         width: 200px;
+    }
+
+    .image_logo_mini {
+        margin-bottom: 10px;
+        height: 25px;
     }
 }
